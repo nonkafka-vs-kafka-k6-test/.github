@@ -2,6 +2,14 @@
  
 > 주문 API에서 무거운 부가 작업(알림 발송)을 동기로 처리했을 때 발생하는 응답 지연 문제를,
 > Kafka를 활용한 비동기 이벤트 분리로 해결한 실험 프로젝트입니다.
+
+### 🔗 Repository Links
+
+| Repository Link | Role |
+| :--- | :--- |
+| [non-kafka-sync 🔗](https://github.com/nonkafka-vs-kafka-k6-test/non-kafka-sync) | 알림 발송 동기 처리 |
+| [kafka-async-producer 🔗](https://github.com/nonkafka-vs-kafka-k6-test/kafka-async-producer) | Kafka Producer - 알림 발송을 Kafka로 비동기 처리 |
+| [kafka-async-consumer 🔗](https://github.com/nonkafka-vs-kafka-k6-test/kafka-async-consumer) | Kafka Consumer - 알림 발송을 Kafka로 비동기 처리 |
  
 ## 1. 프로젝트 배경
  
