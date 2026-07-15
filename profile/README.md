@@ -99,6 +99,7 @@
  
 <details>
 <summary>Before (동기) - 전체 로그</summary>
+ 
 ```
          /\      Grafana   /‾‾/
     /\  /  \     |\  __   /  /
@@ -131,9 +132,12 @@
 running (0m34.6s), 00/50 VUs, 320 complete and 0 interrupted iterations
 default ✓ [======================================] 50 VUs  30s
 ```
+
 </details>
+
 <details>
 <summary>After (Kafka 비동기) - 전체 로그</summary>
+ 
 ```
          /\      Grafana   /‾‾/
     /\  /  \     |\  __   /  /
@@ -166,6 +170,7 @@ default ✓ [======================================] 50 VUs  30s
 running (0m30.6s), 00/50 VUs, 1450 complete and 0 interrupted iterations
 default ✓ [======================================] 50 VUs  30s
 ```
+
 </details>
 
 ---
